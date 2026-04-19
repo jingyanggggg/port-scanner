@@ -3,7 +3,7 @@ import threading
 from queue import Queue
 
 # configuration
-target = "192.168.68.1" # replace with target IP
+target = "127.0.0.1" # <-- Replace with target your target IP address
 queue = Queue()
 open_ports = []
 threads = 100 # number of concurrent threads
