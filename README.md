@@ -4,7 +4,7 @@ Continuing my hands-on journey into cybersecurity, I built this simple TCP port 
 
 ## Features
 
-* **Multi-threaded:** Uses Python's `threading` and `queue` modules to scan multiple ports concurrently, making it significantly faster than sequential scanning.
+* **Multi-threaded:** Uses Python's `threading` and `queue` modules to scan multiple ports concurrently, making it faster than sequential scanning.
 * **TCP Connect Scan:** Attempts a full TCP connection to determine if a port is open.
 * **No External Dependencies:** Built entirely using Python's standard libraries (`socket`, `threading`, `queue`).
 
